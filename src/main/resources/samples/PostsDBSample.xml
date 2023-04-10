@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<posts>
+    <post id="p0001">
+        <owner>admin</owner>
+        <title>titulo</title>
+        <content>nota de prueba</content>
+        <category>prueba</category>
+        <upvotes-counter>1</upvotes-counter>
+
+        <comments>
+            <comment id="c0001">
+                <owner>admin</owner>
+                <content>test comment</content>
+            </comment>
+        </comments>
+
+    </post>
+</posts>
