@@ -5,6 +5,8 @@ import by.daw.api.db.exceptions.NoSuchPostException;
 
 import java.util.List;
 
+// TODO --> IMPLEMENT FUNCTIONS FOR ADDING AND DELETING COMMENTS
+
 /**
  * La interfaz que define el comportamiento
  * que debe tener una clase manejadora de la
@@ -42,9 +44,5 @@ public interface PostsDatabaseManager {
      * @throws NoSuchPostException si no existe un post con tal ID
      */
     void deletePost(String postID) throws NoSuchPostException;
-
-
-    // TODO --> IMPLEMENT FUNCTIONS FOR ADDING AND DELETING COMMENTS
-
 
 }
